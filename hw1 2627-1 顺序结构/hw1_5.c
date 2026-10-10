@@ -11,7 +11,7 @@ int main(){
         pay = 26.5 + (e_kWh - 50) * 0.58;
     }
     else{
-        printf("数据无效\n");
+        printf("鏁版嵁鏃犳晥\n");
         return -1;
     }
     printf("kWh=%d,pay=%.2f\n",e_kWh,pay);
